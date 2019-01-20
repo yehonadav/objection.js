@@ -54,6 +54,7 @@
     "README.md",
     "LICENSE",
     "lib/*",
+    "babel/*",
     "typings/*"
   ],
   "types": "./typings/objection/index.d.ts",
