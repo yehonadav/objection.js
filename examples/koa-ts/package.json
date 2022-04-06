@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "migrate": "knex migrate:latest",
-    "start": "npm run migrate && rm -rf dist && tsc && node dist/app.js"
+    "start": "npm run migrate && rm -rf dist && tsc && node dist/app.js",
+    "start:windows": "npm run migrate && tsc && node dist/app.js"
   },
   "engines": {
     "node": ">=8.0.0"
